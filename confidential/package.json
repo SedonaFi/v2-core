@@ -1,0 +1,16 @@
+{
+  "name": "@sedona/v2-confidential",
+  "private": true,
+  "description": "Additive confidential (FHE) Uniswap-V2-style pool. Self-contained Foundry project; does not touch the repo-root yarn/Waffle 0.5.16 build.",
+  "devDependencies": {
+    "@cofhe/foundry-plugin": "0.5.2",
+    "@cofhe/mock-contracts": "0.5.2",
+    "@fhenixprotocol/cofhe-contracts": "0.1.3",
+    "@openzeppelin/contracts": "^5.2.0",
+    "fhenix-confidential-contracts": "0.3.1"
+  },
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test -vvv"
+  }
+}

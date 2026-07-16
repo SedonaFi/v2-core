@@ -1,0 +1,10 @@
+[profile.default]
+src = "src"
+out = "out"
+test = "test"
+script = "script"
+libs = ["node_modules", "lib"]
+solc_version = "0.8.25"
+auto_detect_remappings = false
+code_size_limit = 400000
+via_ir = true
